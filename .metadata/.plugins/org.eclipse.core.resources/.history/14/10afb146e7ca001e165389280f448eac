@@ -1,0 +1,10 @@
+package com.bs.controller;
+
+public class VariableTest {
+	public static void main(String[] args) {
+		//변수선언하기
+		//자료형 변수명;
+		//논리형 데이터를 저장하는 변수선언하기
+		boolean flag;
+	}
+}

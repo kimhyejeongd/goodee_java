@@ -1,0 +1,11 @@
+package com.repeat.run;
+import com.repeat.controller.RepeatController;
+public class Main {
+	public static void main(String[] args) {
+		//new RepeatController().basicRepeat();
+		//new RepeatController().inputStudent();
+		//new RepeatController().sumNumber();
+		new RepeatController().inputmMsg();
+	}
+
+}

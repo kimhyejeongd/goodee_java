@@ -1,0 +1,13 @@
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		// 문자열 자료형 이용하기
+		String name="유병승";
+		System.out.println(name);
+		
+		
+
+	}
+
+}

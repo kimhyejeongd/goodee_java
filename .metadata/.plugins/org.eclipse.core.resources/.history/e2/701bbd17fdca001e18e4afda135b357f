@@ -1,0 +1,33 @@
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		// 문자열 자료형 이용하기
+		String name="유병승";
+		System.out.println(name);
+		
+		String name2=new String("김동훈");
+		System.out.println(name2);
+		
+		
+		// + 연산자이용을 하면 문자열 결합연산을 실행함.
+		String msg;
+		msg="자바 선생님 "+"유병승";
+		System.out.println(msg);
+		msg="학생 "+name2;
+		System.out.println(msg);
+		int age=19,age2=20;
+		int result=age+age2;
+		System.out.println(result);
+		
+		// 문자열타입 + 다른타입 연산 !
+		msg="나의 나이는 "+19;
+		System.out.println(msg);
+		
+		msg="이름 "+name+"나이 "+age;
+		System.out.println(msg);
+		
+
+	}
+
+}

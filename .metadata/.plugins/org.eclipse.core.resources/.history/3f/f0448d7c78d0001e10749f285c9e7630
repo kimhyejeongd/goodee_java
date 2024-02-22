@@ -1,0 +1,8 @@
+package com.arr.run;
+import com.arr.controller.ArrayTestController;ㄴ
+public class Main {
+	public static void main(String[] args) {
+		
+	}
+
+}

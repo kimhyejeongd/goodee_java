@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.condition.nun&apos; to &apos;com.condition.run&apos;&#x0D;&#x0A;- Original project: &apos;03_조건문&apos;&#x0D;&#x0A;- Original element: &apos;03_조건문/src/com.condition.nun&apos;&#x0D;&#x0A;- Renamed element: &apos;03_조건문/src/com.condition.run&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.condition.nun&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.condition.nun" name="com.condition.run" qualified="false" references="true" stamp="1708306115915" textual="false" version="1.0"/>
+</session>

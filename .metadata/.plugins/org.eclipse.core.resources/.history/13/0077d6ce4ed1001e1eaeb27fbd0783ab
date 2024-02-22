@@ -1,0 +1,16 @@
+package com.obj.model.vo;
+
+public class BasicObject {
+
+	//필드(멤버변수)-> 객체 생성시 사용할 수 있는 저장공간(변수)
+	int age;
+	
+	//초기화블록 -> 객체가 생성됐을 때 무조건실행될 로직을 설정하는 것
+	
+	//static예약어가 선언된 필드, 메소드
+	
+	//생성자
+	
+	//메소드
+
+}

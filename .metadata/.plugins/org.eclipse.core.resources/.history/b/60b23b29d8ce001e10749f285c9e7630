@@ -1,0 +1,8 @@
+package com.repeat.run;
+import com.repeat.controller.RepeatController;
+public class main {
+	public static void main(String[] args) {
+		new RepeatController().basicRepeat();
+	}
+
+}

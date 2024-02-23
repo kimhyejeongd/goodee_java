@@ -3,7 +3,7 @@ package com.obj.model.vo;
 public class BasicObject {
 
 	//필드(멤버변수)-> 객체 생성시 사용할 수 있는 저장공간(변수)
-	int age;
+	public int age;
 	
 	//초기화블록 -> 객체가 생성됐을 때 무조건실행될 로직을 설정하는 것
 	

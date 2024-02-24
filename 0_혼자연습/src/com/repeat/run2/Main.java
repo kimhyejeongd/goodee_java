@@ -5,7 +5,8 @@ public class Main {
 		//new RepeatController2().basicRepeat();
 		//new RepeatController2().inputMsg();
 		//new RepeatController2().empInputData();
-		new RepeatController2().forApp2();
+		//new RepeatController2().forApp2();
+		new RepeatController2().forInfor();
 
 	}
 

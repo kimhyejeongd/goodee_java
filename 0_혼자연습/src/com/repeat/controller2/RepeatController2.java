@@ -112,7 +112,7 @@ public class RepeatController2 {
 		}
 		
 		
-		// 입력받은 문자열에 소문자가 있는지 확인하기
+	/*	// 입력받은 문자열에 소문자가 있는지 확인하기
 		Scanner sc=new Scanner(System.in);
 		System.out.println("문자를 입력해주세요 : ");
 		String str=sc.next();
@@ -124,7 +124,70 @@ public class RepeatController2 {
 			}else {
 				System.out.println(ch+"는 대문자");
 			}
+		}*/
+		String tes="DKDJ";
+		String result2="없다";
+		for(int i=0;i<tes.length();i++) {
+			char cha=tes.charAt(i);
+			if('a'<=cha&&cha<='z') {
+				result2="있다";
+			}
 		}
+		System.out.println(result2);
+		
+		
+		//사용자에게 입력받은 값에 소문자가 있는지 확인하는 기능
+		// + 입력값에 소문자가 몇개있는지 출력하는 기능
+		// 문자열, 문자를 입력받아 문자열에 문자가 있는지 확인하는기능
+		// + 문자가 몇개있는지 확인
+		Scanner sc=new Scanner(System.in);
+		System.out.println("문자 입력 : ");
+		String str2=sc.next();
+		int count=0;
+		for(int i=0;i<str2.length();i++) {
+			char ch2=str2.charAt(i);
+			if('a'<=ch2&&ch2<='z') {
+				count++;
+			}
+		}
+		System.out.println(count);
+		
+		System.out.println("문자열 입력 : ");
+		String moon=sc.next();
+		System.out.println("문자 입력 : ");
+		char mon=sc.next().charAt(0);
+		String result3="없다";
+		for(int i=0;i<moon.length();i++) {
+			char char2=moon.charAt(i);
+			if(char2==mon) {
+				result3="있다";
+			}
+		}System.out.println(result3);
+		
+		}
+		public void forInfor() {
+			// 중첩반복문 활용하기
+			// for문 {} 안에 for 문을 작성하는 로직
+			// 구구단 출력하기
+			for(int i=2;i<10;i++) {
+				System.out.println(i+"단");
+				for(int j=1;j<10;j++) {
+					System.out.println(i+"x"+j+"="+i*j);
+				}System.out.println();
+			}
+			// 문자열에 중복문이 있는지 확인하는 로직
+			String test="apple";
+			for(int i=0;i<test.length();i++) {
+				char ch=test.charAt(i);
+				for(int j=0;j<test.length();j++) {
+					char cch=test.charAt(j);
+					if(i!=j&&ch==cch) {
+						System.out.println(cch+"중복");
+						break;
+					}
+				}
+				System.out.println();
+			}
 	}
 }
 

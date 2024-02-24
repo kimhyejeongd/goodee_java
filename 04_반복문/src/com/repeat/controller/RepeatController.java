@@ -220,7 +220,7 @@ public class RepeatController {
 			}System.out.println();
 			
 		}
-		// 문자열에 중복문가 있는지 확인하는 로직
+		// 문자열에 중복문이 있는지 확인하는 로직
 		String test="apple";
 		for(int i=0;i<test.length();i++) {
 			char target=test.charAt(i);

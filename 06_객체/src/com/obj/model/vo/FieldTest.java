@@ -10,13 +10,18 @@ public class FieldTest {
 	// private 클래스 내부에서만 접근가능 -> 대부분 이걸로 선언!
 	public int price;
 	String name;
-	private double height=180.5;
+	private double height=180.5; //heigth=180.5; //오류 위의 {} 에서만 사용할 수 있음
 	
-	public void test() {
-		System.out.println(this.height);
-		height=180.5;
+	// final예약어 사용하기 -> 초기값을 설정해줘야한다. 
+	// 직접대입, 초기화블록, 생성자를 이용할 수 있음.
+	//public final String CLASS_NAME; -> NULL들어가기 때문에 오류가남 ( 사용의미가 없어짐 )
+	public final String CLASS_NAME="GDJ79";
+	
+	//참조형 자료형 필드만들기
+	public int[] numbers;
+	public BasicObject obj=new BasicObject();
 	}
-	//heigth=180.5; //오류 위의 {} 에서만 사용할 수 있음
+	
 	
 
-}
+

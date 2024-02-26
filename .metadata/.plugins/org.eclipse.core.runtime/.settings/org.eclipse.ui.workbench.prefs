@@ -11,7 +11,15 @@ org.eclipse.egit.ui.CommitMessageFont=1|Courier New|16.0|0|WINDOWS|1|0|0|0|0|0|0
 org.eclipse.egit.ui.DiffHeadlineFont=1|Courier New|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
 org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|Courier New|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
 org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|Courier New|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+<<<<<<< HEAD
 org.eclipse.jdt.ui.ColoredLabels.match_highlight=206,92,0
+=======
+org.eclipse.jdt.ui.ColoredLabels.inherited=143,143,191
+org.eclipse.jdt.ui.ColoredLabels.match_highlight=206,92,0
+org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight=255,128,128
+org.eclipse.jdt.ui.Javadoc.backgroundColor=52,57,61
+org.eclipse.jdt.ui.Javadoc.foregroundColor=238,238,238
+>>>>>>> a2a14412b8bc6639623f6f4d13fc2fdd9855f15f
 org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Courier New|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
 org.eclipse.jdt.ui.editors.textfont=1|Courier New|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
 org.eclipse.jface.textfont=1|Courier New|16.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;

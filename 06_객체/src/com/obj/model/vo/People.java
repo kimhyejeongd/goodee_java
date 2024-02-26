@@ -50,7 +50,7 @@ public class People {
 		return this.name+" "+this.age+" "+this.gender+" "+this.height;
 	}
 //	public void printPeople() {
-//		System.out.println(this.name+" "+this.age+" "+this.gender+" "+this.height);
+//		System.out.println(this.name+" "+this.age+" "+this.gender+" "+this.height);//
 //	}
 	
 }

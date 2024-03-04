@@ -7,7 +7,7 @@ public class VariableTest {
 		// 논리형 데이터를 저장하는 변수선언하기
 		// 저장할 수 있는 데이터 : true, false
 		boolean flag;
-		flag=true;
+		flag=true;//////
 		flag=false;
 		// 문자를 저장하는 변수 선언하기
 		char gender;
